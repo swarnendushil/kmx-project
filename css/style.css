@@ -514,17 +514,18 @@ color: #441C5A;
     padding: 0 15px;
 } */
 
-.right{
+.right1{
     display: flex;
     position: relative;
     justify-content: space-between;
+    align-items: center;
 }
 .image-wrapped{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.right::after {
+.right1::after {
     position: absolute;
     content: '';
     width: 64%;
