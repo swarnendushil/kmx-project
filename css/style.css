@@ -696,3 +696,37 @@ color: #441C5A;
     margin-bottom: 12px;
     border: none;
 }
+.footer-section{
+    background-color: #1E1E1E;
+    color: white;
+    padding: 35px 5%;
+}
+/* .row{
+    display: flex;
+    width: 100%;
+} */
+.left-section{
+    display: flex;
+    gap: 55px;
+}
+.col-lg-4{
+    border-right: 1px solid #FFFFFF;
+    padding-right: 40px;
+}
+.col-lg-8{
+    padding-left: 70px;
+}
+.menu h3{
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+
+}
+.heading-footer{
+    gap: 5px;
+}
+.right-section{
+    position: relative;
+}
+.right-section p{
+    font-size: 30px;
+}
