@@ -67,6 +67,49 @@ a {
 .banner p {
     color: rgba(232, 221, 221, 0.984);
 }
+
+/* support */
+.support {
+  padding: 90px 0 0;
+}
+
+.support-main {
+  padding: 35px 0;
+  border-top: 1px solid #D8D8D8;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.support-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.support-item .icon {
+  flex: 0 0 auto;
+  width: 80px;
+  height: 58px;
+}
+
+.support-item .icon img {
+  object-fit: contain;
+}
+
+.support-item .support-content {
+  color: #4C4C4C;
+}
+
+.support-item h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.support-item .support-content p {
+  margin-bottom: 0;
+}
+/* support */
+
 h2{
     font-size: 40px;
     font-family: 'Georgia', serif;
